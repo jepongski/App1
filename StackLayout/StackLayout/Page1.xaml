@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayout.Page1" BackgroundColor="#354242">
+    <ContentPage.Content>
+
+        <ScrollView>
+            <Grid RowSpacing = "10"  ColumnSpacing = "10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    
+                </Grid.ColumnDefinitions>
+                <Image Source="https://i.pinimg.com/originals/58/23/76/582376a65845d65ce989615444c564b5.jpg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Grid.ColumnSpan="3" Aspect="Fill"/>
+
+
+
+                <Label Text="0123456" FontSize="50" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" TextColor="White"/>
+                <Button Text="1" Grid.Row="1" Grid.Column="0"  FontSize = "30"  TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30"  />
+                <Button Text="2" Grid.Row="1" Grid.Column="1" FontSize = "30"  TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30"  />
+                <Button Text="3" Grid.Row="1" Grid.Column="2" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="4" Grid.Row="2" Grid.Column="0" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="5" Grid.Row="2" Grid.Column="1" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="6" Grid.Row="2" Grid.Column="2" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="7" Grid.Row="3" Grid.Column="0" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="8" Grid.Row="3" Grid.Column="1"  FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="9" Grid.Row="3" Grid.Column="2" FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="0" Grid.Row="4" Grid.Column="1"  FontSize = "30" TextColor = "#28282c" BackgroundColor = "#fff" CornerRadius = "30" />
+                <Button Text="Dial" Grid.Row="5" TextColor = "#28282c" Grid.Column="0"  Grid.ColumnSpan="3"  BackgroundColor = "#96ca2d"  CornerRadius = "30" />
+
+
+            </Grid>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

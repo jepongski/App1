@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayout.exercise2">
+    <ContentPage.Content>
+     <ScrollView>
+         <StackLayout>
+             <Label Text=" jeffrey" Margin="5,5,0,0"/>
+             <StackLayout  Padding="0,10,0,10">
+                 <Image Source="http://lorempixel.com/1920/1080/nature/3/" Aspect="AspectFit"></Image>
+
+             </StackLayout>
+             <StackLayout Orientation="Horizontal">
+                    <Button  Text="Like" BackgroundColor="WhiteSmoke" TextColor="MidnightBlue"></Button>
+                    <Button  Text="Comment"  BackgroundColor="WhiteSmoke" TextColor="MidnightBlue"></Button>
+                    <Button  Text="Share"  BackgroundColor="WhiteSmoke" TextColor="MidnightBlue"></Button>
+             </StackLayout>
+             <BoxView Color="#f0f0f0" HeightRequest="1"></BoxView>
+             <Label Text="700 Likes" FontSize="Medium"></Label>
+             <Label Text =" This is a shot yesterday in Skanor,Sweden, when driving home, from a couple of days of work in Denmark."></Label>
+         </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
